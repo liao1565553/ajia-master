@@ -5,7 +5,7 @@ import javax.servlet.http.HttpServletRequest;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.ui.Model;
 
-import com.jeff.tianti.org.entity.User;
+import com.ajia.org.entity.User;
 
 public class WebHelper {
 	

@@ -14,9 +14,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.ajia.common.util.Md5Util;
+import com.ajia.org.entity.Resource;
 import com.ajia.system.util.WebHelper;
-import com.jeff.tianti.common.util.Md5Util;
-import com.jeff.tianti.org.entity.Resource;
 
 @Controller
 public class LoginController {

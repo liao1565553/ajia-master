@@ -19,21 +19,21 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.ajia.common.dto.AjaxResult;
+import com.ajia.common.entity.PageModel;
+import com.ajia.common.util.ExcelUtils;
+import com.ajia.common.util.Md5Util;
+import com.ajia.org.dto.RoleQueryDTO;
+import com.ajia.org.dto.UserQueryDTO;
+import com.ajia.org.entity.Resource;
+import com.ajia.org.entity.Role;
+import com.ajia.org.entity.User;
+import com.ajia.org.service.ResourceService;
+import com.ajia.org.service.RoleService;
+import com.ajia.org.service.UserService;
 import com.ajia.system.util.Constants;
 import com.ajia.system.util.WebHelper;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.jeff.tianti.common.dto.AjaxResult;
-import com.jeff.tianti.common.entity.PageModel;
-import com.jeff.tianti.common.util.ExcelUtils;
-import com.jeff.tianti.common.util.Md5Util;
-import com.jeff.tianti.org.dto.RoleQueryDTO;
-import com.jeff.tianti.org.dto.UserQueryDTO;
-import com.jeff.tianti.org.entity.Resource;
-import com.jeff.tianti.org.entity.Role;
-import com.jeff.tianti.org.entity.User;
-import com.jeff.tianti.org.service.ResourceService;
-import com.jeff.tianti.org.service.RoleService;
-import com.jeff.tianti.org.service.UserService;
 /**
  * 用户管理Controller
  * @author Jeff Xu

@@ -22,12 +22,12 @@ import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.ajia.org.entity.Resource;
+import com.ajia.org.entity.Role;
+import com.ajia.org.entity.User;
+import com.ajia.org.service.ResourceService;
+import com.ajia.org.service.UserService;
 import com.ajia.system.util.WebHelper;
-import com.jeff.tianti.org.entity.Resource;
-import com.jeff.tianti.org.entity.Role;
-import com.jeff.tianti.org.entity.User;
-import com.jeff.tianti.org.service.ResourceService;
-import com.jeff.tianti.org.service.UserService;
 
 public class ShiroDBRealm extends AuthorizingRealm{
 	
