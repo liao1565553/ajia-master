@@ -3,26 +3,26 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.jeff.tianti.modules</groupId>
-    <artifactId>tianti-modules</artifactId>
+    <groupId>com.jeff.ajia.modules</groupId>
+    <artifactId>ajia-modules</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.jeff.tianti.module.admin</groupId>
-  <artifactId>tianti-module-admin</artifactId>
-  <version>${tianti.version}</version>
+  <groupId>com.jeff.ajia.module.admin</groupId>
+  <artifactId>ajia-module-admin</artifactId>
+  <version>${ajia.version}</version>
   <packaging>war</packaging>
-  <name>tianti-module-admin Maven Webapp</name>
+  <name>ajia-module-admin Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
       <dependency>
-			<groupId>com.jeff.tianti.common</groupId>
-			<artifactId>tianti-common</artifactId>
-			<version>${tianti.version}</version>
+			<groupId>com.jeff.ajia.common</groupId>
+			<artifactId>ajia-common</artifactId>
+			<version>${ajia.version}</version>
 	  </dependency>
       <dependency>
-			<groupId>com.jeff.tianti.org</groupId>
-			<artifactId>tianti-org</artifactId>
-			<version>${tianti.version}</version>
+			<groupId>com.jeff.ajia.org</groupId>
+			<artifactId>ajia-org</artifactId>
+			<version>${ajia.version}</version>
 	  </dependency>
     <!-- Spring相关项目依赖 start -->
       <!-- Spring核心依赖 start -->
@@ -271,6 +271,6 @@
 	</dependency>
   </dependencies>
   <build>
-    <finalName>tianti-module-admin</finalName>
+    <finalName>ajia-module-admin</finalName>
   </build>
 </project>
